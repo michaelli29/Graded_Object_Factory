@@ -19,7 +19,7 @@ public class Factory {
 
             //Generates a random number of free pizzas
             randomNumber = (int)(Math.random()*8)+1;
-            System.out.println("We just got "+randomNumber+ " free pizzas");
+            System.out.println("We just got "+ randomNumber+ " free pizzas");
 
 
             //Creates three different kinds of pizzas
@@ -27,17 +27,17 @@ public class Factory {
             pizzaOrder2=new Pizza("Pepperoni");
             pizzaOrder3=new Pizza("Meat Lovers");
 
-            //Eats one slice, cools down the first pizza, and then prints the info
+            //Eats a random number of slices, cools down the first pizza, and then prints the info
             pizzaOrder1.ateSlices();
             pizzaOrder1.coolDown();
             pizzaOrder1.printInfo();
 
-            //Eats one slice, cools down the second pizza, and then prints the info
+            //Eats a random number of slices, cools down the second pizza, and then prints the info
             pizzaOrder2.ateSlices();
             pizzaOrder2.coolDown();
             pizzaOrder2.printInfo();
 
-            //Eats one slice, cools down the third pizza, and then prints the info
+            //Eats a random number of slices, cools down the third pizza, and then prints the info
             pizzaOrder3.ateSlices();
             pizzaOrder3.coolDown();
             pizzaOrder3.printInfo();
