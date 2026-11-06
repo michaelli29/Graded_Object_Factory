@@ -9,13 +9,14 @@ public class Pizza {
         //Sets the toppings using a parameter
         Toppings= pizzaTopping;
         //Sets the number of slices randomly
-        slices= (int)(Math.random()*9)+1;
+        slices= (int)(Math.random()*8)+1;
         isHot = true;
     }//End of pizza constructor
 
     public void printInfo(){
         //This prints the toppings, if the pizza is hot or cold, and the number of slices
         System.out.println("One of them is a " + Toppings+ " pizza");
+        System.out.println("This pizza has "+ slices+" slices");
         System.out.println("It is " + isHot + " that the pizza is piping hot");
         System.out.println("We have eaten " + eat + " slices in this pizza");
     }//End of printInfo method
